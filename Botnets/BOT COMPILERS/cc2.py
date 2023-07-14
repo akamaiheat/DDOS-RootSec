@@ -17,16 +17,16 @@ if yourafag.lower() == "y":
 else:
     get_arch = False
 
-compileas = ["GHfjfgvj", #mips
-             "JIPJIPJj", #mipsel
-             "jhUOH", #sh4
-             "RYrydry", #x86
-             "UYyuyioy", #Armv6l
-             "XDzdfxzf", #i686
-             "JIPJuipjh", #ppc
-             "DFhxdhdf", #i586
-             "FDFDHFC", #m68k
-             "FTUdftui"] #sparc
+compileas = ["mips", #mips
+             "mipsel", #mipsel
+             "sh4", #sh4
+             "x86", #x86
+             "arm6", #Armv6l
+             "i686", #i686
+             "ppc", #ppc
+             "i568", #i586
+             "m68k", #m68k
+             "sparc"] #sparc
 
 getarch = ['http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-mips.tar.bz2',
 'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-mipsel.tar.bz2',
